@@ -1,0 +1,1 @@
+Programa no qual o cliente digita um numero de 0 a 100 e é dito se tal número é primo ou não.
