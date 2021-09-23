@@ -11,6 +11,8 @@ int main()
     printf("\nDigite um numero de 0 a 100 e verifique se eh primo ou nao \(-1 para sair\): \n");
     scanf("%i", &i);
 
+    if ( i <= 100 ){
+    
     switch(i){
     case 2: 
     case 3:
@@ -50,8 +52,14 @@ int main()
     
     system("pause");
     system("cls");
+    }else {
+        printf("\nValor invalido!\n\n");
+    system("pause");
+    system("cls");
+    }
     
     }while( i != -1);
     
+    
     return 0;
-}
+    }
