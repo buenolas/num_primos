@@ -6,7 +6,7 @@ int main()
     int i;
 
     do{
-    printf("==========NUMEROS PRIMOS==========");
+    printf("\t\t==========NUMEROS PRIMOS==========");
     
     printf("\nDigite um numero de 0 a 100 e verifique se eh primo ou nao \(-1 para sair\): \n");
     scanf("%i", &i);
